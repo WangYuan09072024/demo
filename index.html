@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Math Duel Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game">
+    <h1>⚔️ Math Duel Online ⚔️</h1>
+    <div>
+      <button onclick="startMatch()">Start</button>
+    </div>
+
+    <div id="gameArea" style="display:none">
+        <p id="question">Loading question...</p>
+        <input type="text" id="answer" placeholder="Answer here" />
+        <button onclick="submitAnswer()">Submit</button>
+        <button onclick="togglePause()" id="pauseBtn">⏸️ Pause</button>
+      
+        <p>⏱️ Time Left: <span id="timer">10</span> sec</p>
+        <p id="feedback"></p>
+        <p>Your Score: <span id="myScore">0</span> | Opponent Score: <span id="opponentScore">0</span></p>
+      </div>
+    
+
+    <p id="status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

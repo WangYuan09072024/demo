@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f8ff;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .game {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    display: inline-block;
+  }
+  
+  #question {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 5px;
+  }
+  
+  button {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #009acd;
+  }
+  
+  #feedback {
+    margin-top: 10px;
+    font-weight: bold;
+  }
